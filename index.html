@@ -1,0 +1,125 @@
+<title>Mystery Girls</title>
+
+<style>
+    body {
+      background-image: url('https://i.gyazo.com/ba3f9c489c30b2c0e5a2aa63e073429c.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+    }
+
+    #navbar-primary .navbar-nav { 
+//  background: #ededed;
+  width: 100%;
+  text-align: center;
+  > li {
+    display: inline-block;
+    float: none;
+    > a {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.btn-group button {
+  background-color: #0061ff; /* Green background */
+  border: 1px solid #0061ff; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #367ff5;
+}
+    </style>
+
+
+<header role="banner">
+    <nav id="navbar-primary" class="navbar" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#"><img id="logo-navbar-middle" src="https://i.ibb.co/YQbDcMB/9508c02a166ee0a75f6fa060b6faa3aa-removebg-preview.png" width="400" alt="Logo Thing main logo"></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    </header><!-- header role="banner" -->
+
+    <div class="row">
+        <div class="column">
+          <img src="https://i.ibb.co/ph4HqLr/baa3a0ff0978c8c7c680eba02dd4401a-removebg-preview.png" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://i.ibb.co/B2ZtWnw/e7792395f03b24195b699bdd2ec19282-removebg-preview.png" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://i.ibb.co/ph4HqLr/baa3a0ff0978c8c7c680eba02dd4401a-removebg-preview.png" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+
+<div class="btn-group" style="width:100%">
+  <button onclick="window.location.href='case1.html'" style="width:33.3%">Tik-Tok Girl Box ( 20$ )</button>
+  <button onclick="window.location.href='case1.html'" style="width:33.3%">Super Model Box ( 30$ )</button>
+  <button onclick="window.location.href='case1.html'" style="width:33.3%">Porn Star Box ( 50$ )</button>
+</div>
